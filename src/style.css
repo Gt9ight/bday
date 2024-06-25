@@ -50,6 +50,12 @@ h1 {
   transform: scale(0.7);
 }
 
+@media (max-width: 768px) { /* Adjust the max-width as per your mobile screen size */
+    .flowers {
+      transform: scale(1); /* Adjust the scale factor to make the flowers bigger */
+    }
+  }
+
 .flower {
   position: absolute;
   bottom: 10vmin;
