@@ -1,0 +1,41 @@
+.balloons-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  
+  .balloon {
+    width: 30px;
+    height: 50px;
+    background-color: #f44336; /* Red color */
+    border-radius: 50% 50% 40% 40%;
+    position: absolute;
+    animation: floatUp 5s infinite alternate ease-in-out;
+  }
+  
+  .balloon--1 {
+    left: 10%;
+    animation-delay: 0s;
+  }
+  
+  .balloon--2 {
+    left: 50%;
+    animation-delay: 1s;
+  }
+  
+  .balloon--3 {
+    left: 90%;
+    animation-delay: 2s;
+  }
+  
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+    100% {
+      transform: translateY(-100px) scale(1.1);
+    }
+  }
+  
