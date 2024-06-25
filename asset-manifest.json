@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bday/static/css/main.b11708c6.css",
+    "main.js": "/bday/static/js/main.0911bd88.js",
+    "static/js/453.e418e639.chunk.js": "/bday/static/js/453.e418e639.chunk.js",
+    "index.html": "/bday/index.html",
+    "main.b11708c6.css.map": "/bday/static/css/main.b11708c6.css.map",
+    "main.0911bd88.js.map": "/bday/static/js/main.0911bd88.js.map",
+    "453.e418e639.chunk.js.map": "/bday/static/js/453.e418e639.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b11708c6.css",
+    "static/js/main.0911bd88.js"
+  ]
+}
